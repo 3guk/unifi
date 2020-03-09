@@ -7,7 +7,7 @@ LABEL build_version="3guk version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 
     # SET ENVIROMENT VARIABLES
 ENV DEBIAN_FRONTEND noninteractive
-ENV UNIFI_VERSION 5.13.9-37cd925fb5
+ENV UNIFI_VERSION 5.13.10-202b4c03d0
 
     # INSTALL PACKAGES
 RUN echo "deb http://ftp.us.debian.org/debian stretch main" \
