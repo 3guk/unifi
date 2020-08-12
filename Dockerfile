@@ -2,12 +2,12 @@ FROM debian:stretch
 MAINTAINER jim@ukslc.org
 
 ARG BUILD_DATE
-ARG VERSION=6.0.8-743c4647bb
+ARG VERSION=6.0.12-55e8263d16
 LABEL build_version="3guk version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 
     # SET ENVIROMENT VARIABLES
 ENV DEBIAN_FRONTEND noninteractive
-ENV UNIFI_VERSION 6.0.8-743c4647bb
+ENV UNIFI_VERSION 6.0.12-55e8263d16
 
     # INSTALL PACKAGES
 RUN echo "deb http://ftp.us.debian.org/debian stretch main" \
