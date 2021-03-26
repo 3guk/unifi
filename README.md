@@ -1,2 +1,2 @@
-# UniFi-6.1.70
+# UniFi-6.2.12
 Unifi controller software for management of Unifi access points
