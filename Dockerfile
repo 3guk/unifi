@@ -22,6 +22,7 @@ RUN echo "deb http://ftp.us.debian.org/debian stretch main" \
       libcap2 \
       mongodb-server \
       openjdk-8-jre-headless \
+      openjdk-11-jre-headless \
       prelink \
       supervisor \
       logrotate \
