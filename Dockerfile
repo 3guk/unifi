@@ -12,6 +12,8 @@ ENV UNIFI_VERSION 7.3.69-5c6f606665
     # INSTALL PACKAGES
 RUN echo "deb http://ftp.us.debian.org/debian stretch main" \
     | tee -a /etc/apt/sources.list.d/stretch.list && \
+    echo "deb http://ftp.us.debian.org/debian stretch-backports main" \
+    | tee -a /etc/apt/sources.list.d/stretch.list && \
     apt-get update -q && \
     apt-get upgrade -y && \
     apt-get dist-upgrade -y && \
